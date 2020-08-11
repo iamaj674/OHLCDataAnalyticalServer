@@ -1,0 +1,17 @@
+{
+  "name": "upstox",
+  "version": "1.0.0",
+  "description": "Calculate OHLC data of trade with threads",
+  "main": "server.js",
+  "scripts": {
+    "test": "standard && node --experimental-worker upstox/server1.js"
+  },
+  "author": "Ashutosh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "line-reader": "^0.4.0",
+    "moment": "^2.27.0",
+    "wscat": "^4.0.1"
+  }
+}
