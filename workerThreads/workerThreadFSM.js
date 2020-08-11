@@ -36,6 +36,7 @@ function processDataAndSendData (data, client_id, interval) {
     }
     let resObj = {};
     if(!lastline) {
+       bar_num = 1;
        resObj.o = data.P;
        resObj.h = data.P;
        resObj.l = data.P;
